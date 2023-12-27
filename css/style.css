@@ -1,0 +1,370 @@
+* {
+  margin: 0px;
+  font-size: 12px;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+section > .container {
+  width: 1170px;
+  margin: auto;
+  display: block;
+
+  padding: 30px 50px;
+}
+
+#nav-bar {
+  text-align: center;
+}
+
+/* Start */
+#banner {
+  position: relative;
+  padding: 0;
+}
+#banner > div {
+  position: absolute;
+  left: 38%;
+  padding-top: 60px;
+}
+#banner > div span {
+  padding-left: 80px;
+}
+#nav-bar a {
+  text-decoration: none;
+  color: black;
+  align-self: center;
+}
+#nav-bar i {
+  color: rgb(81, 81, 217);
+}
+#nav-bar {
+  position: relative;
+  justify-content: space-evenly;
+  height: 55px;
+}
+#nav-bar img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  left: 45%;
+  top: -30px;
+  border: 5px solid white;
+}
+.num1::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: rgb(200, 200, 200);
+  left: 100px;
+}
+.num2::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: rgb(200, 200, 200);
+  left: 290px;
+}
+.num3::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: rgb(200, 200, 200);
+  right: 100px;
+}
+.num4::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: rgb(200, 200, 200);
+  right: 260px;
+}
+#about {
+  width: 1192px;
+}
+#target {
+  flex-basis: 596px;
+  background-color: rgb(185, 185, 185);
+  padding: 10px;
+  padding-left: 20px;
+}
+#personal-info {
+  flex-basis: 596px;
+  padding: 10px;
+  padding-left: 20px;
+}
+.mt-40 {
+  list-style: none;
+  padding-left: 0;
+}
+.icon {
+  color: rgb(88, 88, 255);
+}
+.d-flex {
+  justify-content: space-between;
+  column-gap: 20px;
+}
+#exper-icon {
+  font-size: 40px;
+  color: rgb(214, 214, 214);
+}
+.exper {
+  padding-top: 30px;
+  color: rgb(123, 122, 122);
+}
+.exper span {
+  border: 2px solid rgb(68, 48, 222);
+  background-color: rgb(68, 48, 222);
+  border-radius: 10px;
+
+  color: white;
+}
+.exper ul {
+  list-style: none;
+  padding-left: 10px;
+}
+.exper ul li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: rgb(68, 48, 222);
+  font-weight: bold;
+  /* Tạo khoảng cách giữa dấu và text */
+  display: inline-block;
+  width: 1em;
+  margin-left: -1.3em;
+}
+
+.exper li {
+  padding: 20px;
+}
+/* .first,
+.second,
+.third,
+.fourth,
+.fifth,
+.sixth { */
+/* width: 320px; */
+/* border: 2px solid rgb(214, 214, 214);
+  padding: 10px;
+} */
+.learning {
+  padding-top: 30px;
+  color: rgb(123, 122, 122);
+}
+
+.learning li {
+  padding: 20px;
+}
+
+.learning ul {
+  list-style: none;
+  padding-left: 10px;
+  padding-bottom: 90px;
+}
+.learning ul li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: rgb(68, 48, 222);
+  font-weight: bold;
+  /* Tạo khoảng cách giữa dấu và text */
+  display: inline-block;
+  width: 1em;
+  margin-left: -1.3em;
+}
+#learning-icon {
+  font-size: 40px;
+  color: rgb(214, 214, 214);
+}
+.activities {
+  padding-top: 30px;
+  color: rgb(123, 122, 122);
+}
+.activities ul {
+  list-style: none;
+  padding-left: 10px;
+  padding-bottom: 108px;
+}
+.activities ul li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: rgb(68, 48, 222);
+  font-weight: bold;
+  /* Tạo khoảng cách giữa dấu và text */
+  display: inline-block;
+
+  width: 1em;
+  margin-left: -1.3em;
+}
+.activities li {
+  padding: 20px;
+}
+#act-icon {
+  font-size: 40px;
+  color: rgb(214, 214, 214);
+}
+/* .grid {
+  gap: 30px;
+} */
+#job-info {
+  margin-top: 30px;
+}
+.like {
+  padding-top: 30px;
+  color: rgb(123, 122, 122);
+  padding-bottom: 30px;
+  justify-content: space-evenly;
+}
+
+#like-icon {
+  font-size: 40px;
+  color: rgb(214, 214, 214);
+}
+#ic2 {
+  font-size: 30px;
+
+  text-align: center;
+
+  border: 2px solid rgb(131, 131, 232);
+  border-radius: 50%;
+  padding: 10px 0;
+  height: 60px;
+  width: 60px;
+  color: rgb(131, 131, 232);
+}
+.text {
+  padding-left: 10px;
+}
+#language-icon {
+  font-size: 40px;
+  color: rgb(214, 214, 214);
+}
+.details {
+  list-style: none;
+  padding: 0;
+}
+.language {
+  padding-top: 30px;
+  padding-bottom: 42px;
+}
+.big {
+  background-color: #199cdb;
+  height: 2px;
+  width: 45px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.two {
+  background-color: rgb(136, 128, 128);
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+#skill-icon {
+  font-size: 40px;
+  color: rgb(214, 214, 214);
+}
+.flex {
+  justify-content: space-around;
+  gap: 0;
+}
+
+.add {
+  position: relative;
+}
+.install2 {
+  margin-top: 80px;
+}
+.install2::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  left: 30px;
+  right: 30px;
+  background: #d6c08d;
+  bottom: 160px;
+}
+.install1 {
+  border-left: 2px solid #d6c08d;
+  padding-right: 10px;
+}
+.content div p:first-child {
+  flex: 20%;
+}
+.content div p:last-child {
+  flex: 80%;
+}
+.Web div {
+  display: inline;
+}
+.cover {
+  border: 1px solid rgb(180, 180, 180);
+}
+.Web,
+.under1,
+.under2,
+.under3 {
+  border-top: 1px solid rgb(180, 180, 180);
+}
+.Web {
+  padding: 10px;
+}
+.year {
+  border: 2px solid rgb(68, 48, 222);
+  background-color: rgb(68, 48, 222);
+  border-radius: 10px;
+  padding: 3px;
+  color: white;
+}
+.special {
+  padding-bottom: 18px;
+}
+#project {
+  color: rgb(123, 122, 122);
+  margin-top: 30px;
+}
+#project h1 {
+  padding-bottom: 20px;
+}
+#footer {
+  text-align: center;
+  width: 100%;
+}
+#footer ul {
+  list-style: none;
+}
+#footer ul li {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 20px;
+  color: rgb(123, 122, 122);
+}
+#footer ul i {
+  font-size: 20px;
+  color: rgb(69, 69, 241);
+}
+
+.hidden {
+  display: none;
+}
+/* BONUS */
+#personal-info p {
+  color: rgb(123, 122, 122);
+  padding-top: 5px;
+}
+#personal-info input {
+  width: 100%;
+  margin-top: 20px;
+}
+#personal-info button:hover {
+  border: 1px solid black;
+}

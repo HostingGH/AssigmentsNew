@@ -1,0 +1,43 @@
+@media screen and (max-width: 576px) {
+  #nav-bar a {
+    display: block;
+    margin: 0;
+    text-align: start;
+    line-height: 2;
+  }
+  #nav-bar {
+    height: 100px;
+    margin-top: 20px;
+  }
+  #target {
+    height: 200px;
+    width: 40%;
+  }
+
+  .install1 {
+    border: none;
+
+    border-top: 2px solid rgb(173, 173, 35);
+    padding-top: 30px;
+  }
+  .install2::before {
+    display: none;
+  }
+  .install2 {
+    border-top: 2px solid rgb(173, 173, 35);
+    padding-top: 30px;
+    margin-top: 20px;
+  }
+  .add {
+    width: 300px;
+  }
+  .total {
+    display: block;
+  }
+  .part-1 {
+    width: 380px;
+  }
+  #footer ul {
+    width: 40%;
+  }
+}

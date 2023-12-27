@@ -1,0 +1,57 @@
+@media screen and (max-width: 768px) {
+  #nav-bar img {
+    display: none;
+  }
+  .num1::before,
+  .num2::before,
+  .num3::after,
+  .num4::after {
+    display: none;
+  }
+
+  #ic2 {
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+  }
+  .text {
+    padding: 0;
+  }
+  .learning ul {
+    padding-bottom: 162px;
+  }
+  .like {
+    padding-bottom: 268px;
+  }
+  .flex img {
+    padding-bottom: 20px;
+  }
+  .install1 {
+    padding-left: 5px;
+  }
+  .install2::before {
+    bottom: 250px;
+    left: 10px;
+    right: 10px;
+  }
+  #certificate {
+    width: 650px;
+  }
+  .special {
+    padding-bottom: 75px;
+  }
+  .special2 {
+    padding-bottom: 35px;
+  }
+  .part-1 img {
+    width: 100%;
+  }
+  .Web {
+    display: flex;
+    gap: 5px;
+  }
+  .test i {
+    display: block;
+  }
+
+}

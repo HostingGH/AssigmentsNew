@@ -1,0 +1,43 @@
+@media screen and (max-width: 576px) {
+  .grid {
+    display: block;
+  }
+  .cover-in-out {
+    display: block;
+  }
+  .flex {
+    display: block;
+    border-bottom: 2px dashed rgb(66, 66, 118);
+  }
+  .text-of-number {
+    margin-bottom: 5px;
+  }
+  .number {
+    margin-left: 10px;
+    margin-bottom: 0;
+  }
+  .another {
+    height: 50px;
+  }
+  h2 {
+    padding-top: 10px;
+  }
+  .content-goal {
+    display: block;
+  }
+  .icon-goal {
+    text-align: center;
+  }
+  .content-team {
+    display: block;
+  }
+  .icon-team {
+    text-align: center;
+  }
+  .ask-primary {
+    display: block;
+  }
+  .icon-primary {
+    text-align: center;
+  }
+}
